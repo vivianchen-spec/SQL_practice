@@ -1,0 +1,12 @@
+SELECT 
+CASE 
+WHEN CAST("Years of Experience" AS INTEGER) BETWEEN 0 AND 5 THEN '0~5年'
+WHEN CAST("Years of Experience" AS INTEGER) BETWEEN 5 AND 10 THEN '5~10年'
+WHEN CAST("Years of Experience" AS INTEGER) BETWEEN 10 AND 15 THEN '10~15年'
+WHEN CAST("Years of Experience" AS INTEGER) BETWEEN 15 AND 20 THEN '15~20年'
+ELSE '20年以上'
+END AS "Eexperience GROUP",
+ROUND(AVG(salary)) AS avg_salary,
+COUNT(*) AS Heads
+FROM salary 
+GROUP BY "Eexperience GROUP"
