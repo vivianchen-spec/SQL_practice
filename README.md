@@ -1,6 +1,7 @@
 # SQL_practice
 # 我的 SQL 作品集
 為了要直觀展示自學的成果，在ChatGPT與YouTue教學影片的幫助下，第一次嘗試使用Repository來做作品集。
+自學平台：SQLbolt, w3schools, SQLite Studio
 
 ## 關於專案
 這個專案使用 Salary Prediction Dataset，練習 SQL 查詢與資料分析。
