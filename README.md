@@ -1,5 +1,6 @@
 # SQL_practice
 # 我的 SQL 作品集
+為了要直觀展示自學的成果，在ChatGPT與YouTue教學影片的幫助下，第一次嘗試使用Repository來做作品集。
 
 ## 關於專案
 這個專案使用 Salary Prediction Dataset，練習 SQL 查詢與資料分析。
@@ -13,4 +14,4 @@
 - **Salary**: 年薪 (美元)
 
 ## SQL 範例查詢
-比較學歷與工作年資與薪資的關係。
+比較學歷與工作年資兩者，與薪資的關係。
